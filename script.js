@@ -143,7 +143,7 @@ function init() {
         else if (e.key === 'ArrowLeft') {
             snake.direction = 'left';
         }
-        else {
+        else if(e.key==='ArrowRight'){
             snake.direction = 'right';
         }
 
